@@ -1,0 +1,57 @@
+{
+    "id": "945913911",
+    "type": "page",
+    "status": "current",
+    "title": "Billview Blitz",
+    "macroRenderedOutput": {},
+    "body": {
+        "view": {
+            "value": "<p /><p>1 week before the bill is due, send the Billview representative assigned to that customer a 2.0 blitz report.</p><h2 id=\"BillviewBlitz-Instructions\">\\uD83D\\uDCD8 Instructions</h2><p></p><ol start=\"1\"><li><p>Log in to CDR Live via your Telstra laptop</p></li><li><p>Pull blitz 2.0 for customers MICA/CIDN as listed in the task with both deactive and active services</p></li><li><p>Remove standard “Service End Date” “31/12/2999”</p></li><li><p>Save file to CCT Sharepoint As “Customer Name Billview Blitz Month Year”</p></li><li><p>Send to <a href=\"https://connectivau.atlassian.net/wiki/spaces/CCT/pages/945815558/Billview#Customers%3A\" rel=\"nofollow\">Billview rep</a></p></li></ol><div class=\"confluence-information-macro confluence-information-macro-information conf-macro output-block\" data-hasbody=\"true\" data-macro-id=\"2f02c6d8-6e86-4b2f-a697-ca42fb403364\" data-macro-name=\"info\"><span class=\"aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon\"> </span><div class=\"confluence-information-macro-body\"><p>Billview use the below information from the blitz 2.0:</p><ul><li><p>Service Activation Date</p></li><li><p>Service End Date</p></li><li><p>Flexiplan Name</p></li><li><p>Flexiplan Start/End Date</p></li><li><p>SIM Number</p></li><li><p>IMEI</p></li><li><p>Device Name/Type</p></li><li><p>Shareable Data Plan 1 Description</p></li><li><p>PUK</p></li></ul></div></div><p />",
+            "representation": "view",
+            "_expandable": {
+                "webresource": "",
+                "embeddedContent": "",
+                "mediaToken": "",
+                "content": "/rest/api/content/945913911"
+            }
+        },
+        "_expandable": {
+            "editor": "",
+            "atlas_doc_format": "",
+            "export_view": "",
+            "styled_view": "",
+            "dynamic": "",
+            "storage": "",
+            "editor2": "",
+            "anonymous_export_view": ""
+        }
+    },
+    "extensions": {
+        "position": 978
+    },
+    "_expandable": {
+        "container": "/rest/api/space/CCT",
+        "metadata": "",
+        "restrictions": "/rest/api/content/945913911/restriction/byOperation",
+        "history": "/rest/api/content/945913911/history",
+        "version": "",
+        "descendants": "/rest/api/content/945913911/descendant",
+        "space": "/rest/api/space/CCT",
+        "childTypes": "",
+        "schedulePublishInfo": "",
+        "operations": "",
+        "schedulePublishDate": "",
+        "children": "/rest/api/content/945913911/child",
+        "ancestors": ""
+    },
+    "_links": {
+        "editui": "/pages/resumedraft.action?draftId=945913911",
+        "webui": "/spaces/CCT/pages/945913911/Billview+Blitz",
+        "edituiv2": "/spaces/CCT/pages/edit-v2/945913911",
+        "context": "/wiki",
+        "self": "https://connectivau.atlassian.net/wiki/rest/api/content/945913911",
+        "tinyui": "/x/N4BhO",
+        "collection": "/rest/api/content",
+        "base": "https://connectivau.atlassian.net/wiki"
+    }
+}

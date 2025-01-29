@@ -8,8 +8,8 @@
       "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
       "typeVersion": 1.1,
       "position": [
-        1100,
-        180
+        1840,
+        -260
       ],
       "credentials": {
         "postgres": {
@@ -28,8 +28,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
       "typeVersion": 1,
       "position": [
-        980,
-        180
+        1700,
+        -260
       ],
       "credentials": {
         "ollamaApi": {
@@ -48,8 +48,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmOllama",
       "typeVersion": 1,
       "position": [
-        2020,
-        120
+        2120,
+        260
       ],
       "credentials": {
         "ollamaApi": {
@@ -68,8 +68,8 @@
       "type": "@n8n/n8n-nodes-langchain.toolVectorStore",
       "typeVersion": 1,
       "position": [
-        1800,
-        -40
+        1920,
+        80
       ]
     },
     {
@@ -81,8 +81,8 @@
       "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
       "typeVersion": 1,
       "position": [
-        1900,
-        220
+        1960,
+        380
       ],
       "credentials": {
         "ollamaApi": {
@@ -116,8 +116,8 @@
       "type": "n8n-nodes-base.googleDriveTrigger",
       "typeVersion": 1,
       "position": [
-        660,
-        500
+        140,
+        180
       ],
       "disabled": true
     },
@@ -146,8 +146,8 @@
       "type": "n8n-nodes-base.googleDriveTrigger",
       "typeVersion": 1,
       "position": [
-        660,
-        720
+        140,
+        400
       ],
       "disabled": true
     },
@@ -176,8 +176,8 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        920,
-        500
+        400,
+        180
       ],
       "disabled": true
     },
@@ -202,26 +202,10 @@
       "type": "n8n-nodes-base.googleDrive",
       "typeVersion": 3,
       "position": [
-        1360,
-        500
+        840,
+        180
       ],
       "executeOnce": true,
-      "disabled": true
-    },
-    {
-      "parameters": {
-        "operation": "text",
-        "options": {}
-      },
-      "id": "30bb2380-782f-44ce-99b8-e90a365aaf8f",
-      "name": "Extract Document Text",
-      "type": "n8n-nodes-base.extractFromFile",
-      "typeVersion": 1,
-      "position": [
-        1600,
-        500
-      ],
-      "alwaysOutputData": true,
       "disabled": true
     },
     {
@@ -231,11 +215,7 @@
             "metadataValues": [
               {
                 "name": "file_id",
-                "value": "={{ $('Set File ID').item.json.file_id }}"
-              },
-              {
-                "name": "folder_id",
-                "value": "={{ $('Set File ID').item.json.folder_id }}"
+                "value": "={{ $('Set File ID (JSON)').item.json.id }}"
               }
             ]
           }
@@ -246,10 +226,9 @@
       "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
       "typeVersion": 1,
       "position": [
-        1920,
-        720
-      ],
-      "disabled": true
+        1000,
+        -280
+      ]
     },
     {
       "parameters": {
@@ -261,10 +240,9 @@
       "type": "@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter",
       "typeVersion": 1,
       "position": [
-        1920,
-        940
-      ],
-      "disabled": true
+        1000,
+        -120
+      ]
     },
     {
       "parameters": {
@@ -275,10 +253,15 @@
       "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
       "typeVersion": 1,
       "position": [
-        1760,
-        720
+        840,
+        -280
       ],
-      "disabled": true
+      "credentials": {
+        "ollamaApi": {
+          "id": "FdNIYUkqrEY8EauQ",
+          "name": "Ollama account"
+        }
+      }
     },
     {
       "parameters": {
@@ -291,8 +274,8 @@
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
-        620,
-        -160
+        1320,
+        -620
       ]
     },
     {
@@ -307,15 +290,15 @@
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
-        1600,
-        -160
+        1700,
+        -20
       ]
     },
     {
       "parameters": {
-        "content": "## Workflow to Create Local Knowledgebase from Google Drive Folder",
-        "height": 705.2695614889159,
-        "width": 1568.9362829025763,
+        "content": "## Workflow to Create Local Knowledge Base from Test Files",
+        "height": 685,
+        "width": 1189,
         "color": 5
       },
       "id": "b3219bc1-5e44-48c7-84c1-4d5aff2b8141",
@@ -323,8 +306,8 @@
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
-        620,
-        380
+        80,
+        -620
       ],
       "disabled": true
     },
@@ -337,8 +320,8 @@
       "type": "@n8n/n8n-nodes-langchain.chatTrigger",
       "typeVersion": 1.1,
       "position": [
-        680,
-        -40
+        1400,
+        -500
       ],
       "webhookId": "4b3b1838-d6b3-447e-9d79-d0931eddb9f8"
     },
@@ -357,8 +340,8 @@
       "type": "@n8n/n8n-nodes-langchain.vectorStoreQdrant",
       "typeVersion": 1,
       "position": [
-        1620,
-        100
+        1740,
+        220
       ],
       "credentials": {
         "qdrantApi": {
@@ -395,8 +378,8 @@
       "type": "@n8n/n8n-nodes-langchain.code",
       "typeVersion": 1,
       "position": [
-        1140,
-        500
+        620,
+        180
       ],
       "alwaysOutputData": false,
       "disabled": true
@@ -417,10 +400,15 @@
       "type": "@n8n/n8n-nodes-langchain.vectorStoreQdrant",
       "typeVersion": 1,
       "position": [
-        1820,
-        500
+        900,
+        -500
       ],
-      "disabled": true
+      "credentials": {
+        "qdrantApi": {
+          "id": "4K1J1umePJuG4rxw",
+          "name": "QdrantApi account"
+        }
+      }
     },
     {
       "parameters": {
@@ -431,8 +419,8 @@
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,
       "position": [
-        1400,
-        -40
+        2120,
+        -500
       ]
     },
     {
@@ -447,23 +435,26 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
       "position": [
-        680,
-        140
+        1400,
+        -320
       ],
       "webhookId": "4a839da9-b8a2-45f8-bcaf-c484f9a5912d"
     },
     {
       "parameters": {
-        "options": {}
+        "options": {
+          "systemMessage": "You are an AI assistant for the company Connectiv, a provider of managed services. You will assist service desk operators with handling tickets "
+        }
       },
       "id": "90b2013d-e9f5-49a3-8d61-a49643d93c55",
       "name": "AI Agent",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 1.6,
       "position": [
-        1060,
-        -40
-      ]
+        1780,
+        -500
+      ],
+      "retryOnFail": true
     },
     {
       "parameters": {
@@ -490,8 +481,112 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        880,
-        -40
+        1600,
+        -500
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Google Drive",
+        "height": 520,
+        "width": 1040,
+        "color": 3
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        80,
+        80
+      ],
+      "id": "b414ee06-9f61-468f-b0cf-62fe034a8236",
+      "name": "Sticky Note3"
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "id": "30bb2380-782f-44ce-99b8-e90a365aaf8f",
+      "name": "Extract KB Data",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        320,
+        -500
+      ],
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "code": {
+          "execute": {
+            "code": "const { QdrantVectorStore } = require(\"@langchain/qdrant\");\nconst { OllamaEmbeddings } = require(\"@langchain/community/embeddings/ollama\");\n\nconst embeddings = new OllamaEmbeddings({\n  model: \"nomic-embed-text\",\n  baseUrl: \"http://ollama:11434\"\n});\n\nconst vectorStore = await QdrantVectorStore.fromExistingCollection(\n  embeddings,\n  {\n    url: \"http://qdrant:6333\",\n    collectionName: \"documents\",\n  }\n);\n\nconst fileIdToDelete = this.getInputData()[0].json.id;\n\nconst filter = {\n        must: [\n            {\n                key: \"metadata.file_id\",\n                match: {\n                    value: fileIdToDelete,\n                },\n            },\n        ],\n    }\n\n// const results = await vectorStore.similaritySearch(\"this\", 10, filter);\n// const idsToDelete = results.map((doc) => doc.id);\n\n// NOT IMPLEMENTED!\n// await vectorStore.delete({ ids: idsToDelete });\n\nvectorStore.client.delete(\"documents\", {\n  filter\n});\n\nreturn [ {json: { file_id: fileIdToDelete } } ];\n"
+          }
+        },
+        "inputs": {
+          "input": [
+            {
+              "type": "main",
+              "required": true
+            }
+          ]
+        },
+        "outputs": {
+          "output": [
+            {
+              "type": "main"
+            }
+          ]
+        }
+      },
+      "id": "d1ba37f8-f040-4130-ba33-dcb6c742da1b",
+      "name": "Clear Vectors",
+      "type": "@n8n/n8n-nodes-langchain.code",
+      "typeVersion": 1,
+      "position": [
+        680,
+        -220
+      ],
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "fileSelector": "/data/shared/testdata/*",
+        "options": {
+          "fileExtension": "json"
+        }
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        120,
+        -500
+      ],
+      "id": "cf653ccb-7dea-452f-a0e5-df1ca252052f",
+      "name": "Read Test Data (JSON)",
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "0a1fa967-73b5-4ca1-b37d-da71798e67d4",
+              "name": "id",
+              "value": "={{ $json.data.id }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "11a441e3-418a-4776-af9b-7861aba7b01d",
+      "name": "Set File ID (JSON)",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        500,
+        -500
       ]
     }
   ],
@@ -576,24 +671,7 @@
     },
     "Download File": {
       "main": [
-        [
-          {
-            "node": "Extract Document Text",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Extract Document Text": {
-      "main": [
-        [
-          {
-            "node": "Qdrant Vector Store Insert",
-            "type": "main",
-            "index": 0
-          }
-        ]
+        []
       ]
     },
     "Default Data Loader": {
@@ -705,13 +783,54 @@
           }
         ]
       ]
+    },
+    "Extract KB Data": {
+      "main": [
+        [
+          {
+            "node": "Set File ID (JSON)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Clear Vectors": {
+      "main": [
+        []
+      ]
+    },
+    "Read Test Data (JSON)": {
+      "main": [
+        [
+          {
+            "node": "Extract KB Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set File ID (JSON)": {
+      "main": [
+        [
+          {
+            "node": "Qdrant Vector Store Insert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
-  "active": false,
+  "active": true,
   "settings": {
-    "executionOrder": "v1"
+    "executionOrder": "v1",
+    "timezone": "Australia/Perth",
+    "callerPolicy": "workflowsFromSameOwner",
+    "executionTimeout": -1
   },
-  "versionId": "f9aa1f2c-c6a9-4b96-8677-811c399da593",
+  "versionId": "9abc640d-c2e8-4c1f-983e-5673d67739e3",
   "meta": {
     "instanceId": "ae41500a153fa7315a936ca14f0e4569d5ad7003c956d3f228daa7b7321179bd"
   },

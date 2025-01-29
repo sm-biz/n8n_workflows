@@ -1,0 +1,57 @@
+{
+    "id": "953155598",
+    "type": "page",
+    "status": "current",
+    "title": "Billview Reporting",
+    "macroRenderedOutput": {},
+    "body": {
+        "view": {
+            "value": "<p>Reporting Tool:</p><ol start=\"1\"><li><p>Log in to customers Billview profile &gt; select Reporting Tool</p></li></ol><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"image-20240930-031326.png\" width=\"760\" loading=\"lazy\" src=\"https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031326.png?version=1&amp;modificationDate=1727666009209&amp;cacheVersion=1&amp;api=v2&amp;width=760&amp;height=205\" data-image-src=\"https://connectivau.atlassian.net/wiki/download/attachments/953155598/image-20240930-031326.png?version=1&amp;modificationDate=1727666009209&amp;cacheVersion=1&amp;api=v2\" data-height=\"427\" data-width=\"1582\" data-unresolved-comment-count=\"0\" data-linked-resource-id=\"1172176911\" data-linked-resource-version=\"1\" data-linked-resource-type=\"attachment\" data-linked-resource-default-alias=\"image-20240930-031326.png\" data-base-url=\"https://connectivau.atlassian.net/wiki\" data-linked-resource-content-type=\"image/png\" data-linked-resource-container-id=\"953155598\" data-linked-resource-container-version=\"2\" data-media-id=\"7d206f4c-4488-42be-af56-2513fbbd6ed2\" data-media-type=\"file\" srcset=\"https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031326.png?version=1&amp;modificationDate=1727666009209&amp;cacheVersion=1&amp;api=v2&amp;width=1520&amp;height=410 2x, https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031326.png?version=1&amp;modificationDate=1727666009209&amp;cacheVersion=1&amp;api=v2&amp;width=760&amp;height=205 1x\"></span><ol start=\"2\"><li><p>Open the “Report Selection” tab to view changeable fields, and adjust where necessary. </p><ol start=\"1\"><li><p>Categories need to be “ticked” to be shown in the report.</p></li></ol></li></ol><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"image-20240930-031416.png\" width=\"345\" loading=\"lazy\" src=\"https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031416.png?version=1&amp;modificationDate=1727666059094&amp;cacheVersion=1&amp;api=v2&amp;width=345&amp;height=737\" data-image-src=\"https://connectivau.atlassian.net/wiki/download/attachments/953155598/image-20240930-031416.png?version=1&amp;modificationDate=1727666059094&amp;cacheVersion=1&amp;api=v2\" data-height=\"737\" data-width=\"345\" data-unresolved-comment-count=\"0\" data-linked-resource-id=\"1171750958\" data-linked-resource-version=\"1\" data-linked-resource-type=\"attachment\" data-linked-resource-default-alias=\"image-20240930-031416.png\" data-base-url=\"https://connectivau.atlassian.net/wiki\" data-linked-resource-content-type=\"image/png\" data-linked-resource-container-id=\"953155598\" data-linked-resource-container-version=\"2\" data-media-id=\"ac7e4c3e-263b-4cce-b494-db0880d0d057\" data-media-type=\"file\" srcset=\"https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031416.png?version=1&amp;modificationDate=1727666059094&amp;cacheVersion=1&amp;api=v2&amp;width=345&amp;height=737 2x, https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031416.png?version=1&amp;modificationDate=1727666059094&amp;cacheVersion=1&amp;api=v2&amp;width=345&amp;height=737 1x\"></span><ol start=\"3\"><li><p>Select the magnifying glass to refresh the search field.</p></li></ol><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"image-20240930-031732.png\" width=\"350\" loading=\"lazy\" src=\"https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031732.png?version=1&amp;modificationDate=1727666254524&amp;cacheVersion=1&amp;api=v2&amp;width=350&amp;height=59\" data-image-src=\"https://connectivau.atlassian.net/wiki/download/attachments/953155598/image-20240930-031732.png?version=1&amp;modificationDate=1727666254524&amp;cacheVersion=1&amp;api=v2\" data-height=\"59\" data-width=\"350\" data-unresolved-comment-count=\"0\" data-linked-resource-id=\"1172176917\" data-linked-resource-version=\"1\" data-linked-resource-type=\"attachment\" data-linked-resource-default-alias=\"image-20240930-031732.png\" data-base-url=\"https://connectivau.atlassian.net/wiki\" data-linked-resource-content-type=\"image/png\" data-linked-resource-container-id=\"953155598\" data-linked-resource-container-version=\"2\" data-media-id=\"332db3cf-77cf-4b43-9ada-8d995faa56a4\" data-media-type=\"file\" srcset=\"https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031732.png?version=1&amp;modificationDate=1727666254524&amp;cacheVersion=1&amp;api=v2&amp;width=350&amp;height=59 2x, https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031732.png?version=1&amp;modificationDate=1727666254524&amp;cacheVersion=1&amp;api=v2&amp;width=350&amp;height=59 1x\"></span><ol start=\"4\"><li><p>Export the data to Billview using the below icon.</p></li></ol><span class=\"confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size\"><img class=\"confluence-embedded-image image-center\" alt=\"image-20240930-031811.png\" width=\"377\" loading=\"lazy\" src=\"https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031811.png?version=1&amp;modificationDate=1727666293794&amp;cacheVersion=1&amp;api=v2&amp;width=377&amp;height=55\" data-image-src=\"https://connectivau.atlassian.net/wiki/download/attachments/953155598/image-20240930-031811.png?version=1&amp;modificationDate=1727666293794&amp;cacheVersion=1&amp;api=v2\" data-height=\"55\" data-width=\"377\" data-unresolved-comment-count=\"0\" data-linked-resource-id=\"1171324954\" data-linked-resource-version=\"1\" data-linked-resource-type=\"attachment\" data-linked-resource-default-alias=\"image-20240930-031811.png\" data-base-url=\"https://connectivau.atlassian.net/wiki\" data-linked-resource-content-type=\"image/png\" data-linked-resource-container-id=\"953155598\" data-linked-resource-container-version=\"2\" data-media-id=\"6de2faf3-e2a5-433b-85af-a068162bd657\" data-media-type=\"file\" srcset=\"https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031811.png?version=1&amp;modificationDate=1727666293794&amp;cacheVersion=1&amp;api=v2&amp;width=377&amp;height=55 2x, https://connectivau.atlassian.net/wiki/download/thumbnails/953155598/image-20240930-031811.png?version=1&amp;modificationDate=1727666293794&amp;cacheVersion=1&amp;api=v2&amp;width=377&amp;height=55 1x\"></span><p />",
+            "representation": "view",
+            "_expandable": {
+                "webresource": "",
+                "embeddedContent": "",
+                "mediaToken": "",
+                "content": "/rest/api/content/953155598"
+            }
+        },
+        "_expandable": {
+            "editor": "",
+            "atlas_doc_format": "",
+            "export_view": "",
+            "styled_view": "",
+            "dynamic": "",
+            "storage": "",
+            "editor2": "",
+            "anonymous_export_view": ""
+        }
+    },
+    "extensions": {
+        "position": 2145
+    },
+    "_expandable": {
+        "container": "/rest/api/space/CCT",
+        "metadata": "",
+        "restrictions": "/rest/api/content/953155598/restriction/byOperation",
+        "history": "/rest/api/content/953155598/history",
+        "version": "",
+        "descendants": "/rest/api/content/953155598/descendant",
+        "space": "/rest/api/space/CCT",
+        "childTypes": "",
+        "schedulePublishInfo": "",
+        "operations": "",
+        "schedulePublishDate": "",
+        "children": "/rest/api/content/953155598/child",
+        "ancestors": ""
+    },
+    "_links": {
+        "editui": "/pages/resumedraft.action?draftId=953155598",
+        "webui": "/spaces/CCT/pages/953155598/Billview+Reporting",
+        "edituiv2": "/spaces/CCT/pages/edit-v2/953155598",
+        "context": "/wiki",
+        "self": "https://connectivau.atlassian.net/wiki/rest/api/content/953155598",
+        "tinyui": "/x/DgDQO",
+        "collection": "/rest/api/content",
+        "base": "https://connectivau.atlassian.net/wiki"
+    }
+}
